@@ -1,0 +1,35 @@
+.navbar__container {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 0.5px solid #dedede;
+  justify-content: space-between;
+  display: flex;
+}
+
+.navbar__logo {
+  width: 120px;
+  object-fit: contain;
+}
+
+.navbar__buttonGroup {
+  max-width: 200px;
+  display: flex;
+  margin-right: 20px;
+  justify-content: right;
+}
+.navbar__logout {
+  max-width: 100px;
+  display: flex;
+  margin-right: 20px;
+  justify-content: right;
+}
+.navbar__form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.navbar__input {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}

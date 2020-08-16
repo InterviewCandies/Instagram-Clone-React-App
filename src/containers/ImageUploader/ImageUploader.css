@@ -1,0 +1,15 @@
+.imageUploader__container {
+  background-color: white;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.imageUploader__input {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.imageUploader__group {
+  width: 100%;
+  display: flex;
+}

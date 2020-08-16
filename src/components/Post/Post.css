@@ -1,0 +1,42 @@
+.post__container {
+  background-color: white;
+  max-width: 800px;
+  margin-bottom: 20px;
+  border: 1px solid #dedede;
+}
+.post__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.post__image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.post__avatar {
+  margin: 10px;
+}
+
+.post__text {
+  margin: 10px;
+  font-weight: normal;
+}
+
+.post__comment {
+  display: flex;
+}
+
+.post__input {
+  flex: 1;
+  border-radius: 0px;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+.post__button {
+  flex: 0;
+  border-radius: 0px;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
